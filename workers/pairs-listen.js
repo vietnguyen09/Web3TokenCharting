@@ -86,7 +86,7 @@ async function listen_pairs(){
         } catch (error) {
             console.log("ERROR: ", error);
         }
-        await sleep(1000) // pause 1000 seconds
+        await sleep(1000) // pause 1 seconds
     }
 }
 /**
